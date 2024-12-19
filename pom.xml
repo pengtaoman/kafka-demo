@@ -36,5 +36,25 @@
             <artifactId>fastjson</artifactId>
             <version>2.0.53</version>
         </dependency>
+        <!-- SLF4J API -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.32</version> <!-- 或者你项目中使用的版本 -->
+        </dependency>
+
+        <!-- Logback 实现 SLF4J -->
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.2.6</version> <!-- 或者你项目中使用的版本 -->
+        </dependency>
+
+        <!-- Logback 配置文件（可选，但推荐） -->
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-core</artifactId>
+            <version>1.2.6</version>
+        </dependency>
     </dependencies>
 </project>

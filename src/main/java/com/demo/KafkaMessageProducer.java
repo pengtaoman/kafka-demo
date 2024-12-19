@@ -13,7 +13,7 @@ public class KafkaMessageProducer {
 
     public void init() {
         Properties properties = new Properties();
-        properties.put("bootstrap.servers","localhost:9092");    // 指定 Broker
+        properties.put("bootstrap.servers","10.211.55.71:9092");    // 指定 Broker
         properties.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");  // 将 key 的 Java 对象转成字节数组
         properties.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer"); // 将 value 的 Java 对象转成字节数组
         properties.put("acks", "1");       // 消息至少成功发给一个副本后才返回成功
